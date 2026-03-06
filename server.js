@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
-const authRouter = require("./routes/auth");
+const { router: authRouter } = require("./routes/auth");
 const postsRouter = require("./routes/posts");
 const watchlistRouter = require("./routes/watchlist");
 
